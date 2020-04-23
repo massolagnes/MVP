@@ -1,0 +1,47 @@
+:root {
+
+   /* COULEURS */
+
+    --color-orange: #F6932F;
+    --color-marron: #b16c26;
+    --color-rougebrique: #AF362F;
+    --color-vertdeau:#0DB38B;
+    --color-bleuocean: #3B5B98;
+    --color-noir: #000000;
+    --color-grissouris: #707070;
+    --color-grisorage: #DADADA;
+    --color-grisnuage: #EFEFEF;
+    --color-creme: #FAFAFA;
+    --color-blanc: #FFFFFF;
+
+
+
+
+
+}
+
+.stwaches {
+    width: 3rem ; 
+    height : 3rem
+}
+
+.orange { background-color: var(--color-orange)
+}
+.marron {background-color: var(--color-vertdeau);
+}
+.rougebrique{background-color: var(--color-rougebrique);
+}
+.vertdeau{background-color: var(--color-vertdeau);
+}
+.bleuocean{background-color: var(--color-bleuocean);
+}
+.noir{background-color: var(--color-noir);
+}
+.grisouris{background-color: var(--color-grissouris);
+}
+.creme{background-color: var(--color-creme);
+}
+.blanc{background-color: var(--color-blanc);
+}
+
+ /* FONT TYPE : family et size*/
