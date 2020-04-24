@@ -61,12 +61,6 @@
 .btn{
     padding: var(--space-sm);
     background-color: var(--color-orange);
-    
-    
-}
-.btn-default{
-    padding: var(--space-sm);
-    background-color: var(--color-orange);
 }
 
 .btn-default{
