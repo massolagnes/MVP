@@ -68,7 +68,8 @@
     padding: var(--space-sm);
     background-color: var(--color-orange);
 }
-.btn:focus{
+.btn:focus{padding: var(--space-sm);
+    background-color: var(--color-vertdeau);
     
 }
 .btn-default{
