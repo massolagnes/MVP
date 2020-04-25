@@ -12,10 +12,16 @@
   --color-grisnuage: #efefef;
   --color-creme: #fafafa;
   --color-blanc: #ffffff;
+  --color-vertdoux: #33CCCC;
+
 
   --border-radius-md: 20px;
   --shadow-z1: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  --font-size-2: 18px;
+  --font-size-2: 16px;
+
+  --font-style-normal: 400;
+  --font-style-medieum: 600;
+  --font-style-bold: 700;
 }
 
 .orange {
@@ -49,6 +55,7 @@
 .stwaches {
   width: 3rem;
   height: 3rem;
+  border: medium black;
 }
 
 /* FONT TYPE : family et size*/
@@ -63,7 +70,108 @@ html {
 }
 
 /* BUTTONS*/
-.btn {
+
+/*bouton primaire*/
+
+.btn-primary {
+  background: var(--color-orange);
+  color: var(--color-blanc);
+  width: 150px;
+  height: 150px;
+  box-shadow: var(--shadow-z1);
+  border-radius: var(--border-radius-md);
+  font-weight: bold;
+  font-size: var(--font-size-2);
+  line-height: 1.2;
+}
+
+.btn-secondary {
+  background: var(--color-vertdeau);
+  color: var(--color-blanc);
+  width: 150px;
+  height: 150px;
+  box-shadow: var(--shadow-z1);
+  border-radius: var(--border-radius-md);
+  font-weight: bold;
+  font-size: var(--font-size-2);
+  line-height: 1.2;
+}
+
+.btn-circle{
+   border-radius: 50% 50%;
+ font-weight: bold;
+  font-size: var(--font-size-2);
+  line-height: 1.2;
+  background: var(--color-vertdeau);
+  color: var(--color-blanc);
+  width: 125px;
+  height: 115px;
+  box-shadow: var(--shadow-z1);
+}
+.btn-tertiary{
+   border-radius: 50px;
+  font-weight: bold;
+  font-size: var(--font-size-2);
+  line-height: 1.2;
+  background: var(--color-vertdeau);
+  color: var(--color-blanc);
+  width: 245px;
+  height: 50px;
+  box-shadow: var(--shadow-z1);
+ }
+.btn-petit{
+   border-radius: 20px;
+  font-weight: bold;
+  font-size: var(--font-size-2);
+  line-height: 1.2;
+  background: var(--color-orange);
+  color: var(--color-blanc);
+  width: 150px;
+  height: 50px;
+  box-shadow: var(--shadow-z1);
+ }
+
+ .btn-petit:hover
+{   background-color: var(--color-marron);}
+
+.btn-petit:active
+{   background-color: var(--color-rougebrique);}
+
+
+
+
+ .btn-tertiary:hover
+{   background-color: var(--color-vertdoux);}
+
+.btn-tertiary:active
+{   background-color: var(--color-noir);}
+
+.btn-circle:hover
+{   background-color: var(--color-vertdoux);}
+
+.btn-circle:active{
+    background-color: var(--color-noir);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-marron);
+}
+
+.btn-primary:active {
+  background-color: var(--color-rougebrique);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-vertdoux);
+}
+.btn-secondary:active {
+  background-color: var(--color-noir);
+
+
+
+
+/*
+.btn-primary {
   width: 150px;
   height: 150px;
   box-shadow: var(--shadow-z1);
@@ -75,6 +183,19 @@ html {
   cursor: pointer;
 }
 
+.btn-primary:hover {
+  color: black;
+  border-color: currentColor;
+  background-color: var(--color-orange);
+}
+
+.btn-primary:focus {
+  color: blue;
+  border-color: currentColor;
+  background-color: green;
+}
+
+/*
 .btn-secondary {
   width: 150px;
   height: 60px;
@@ -88,13 +209,18 @@ html {
   border-radius: 50% 50%;
 }
 
-.btn-tertiary
-{ width: 245px;
-height: 50px;
-background: orange;}
-
+.btn-tertiary {
+  width: 245px;
+  height: 50px;
+  background: orange;
 }
-.btn:hover {
+
+.btn-hover:hover {
+  color: black;
+  border-color: currentColor;
+  background-color: orange;
+}
+.btn-primary:hover {
   color: black;
   border-color: currentColor;
   background-color: orange;
@@ -126,3 +252,4 @@ background: orange;}
   border-color: black;
   background-color: var(--color-grissouris);
 }
+*/
