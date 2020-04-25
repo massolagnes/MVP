@@ -22,7 +22,7 @@
   background-color: var(--color-orange);
 }
 .marron {
-  background-color: var(--color-vertdeau);
+  background-color: var(--color-marron);
 }
 .rougebrique {
   background-color: var(--color-rougebrique);
@@ -50,6 +50,7 @@
   width: 3rem;
   height: 3rem;
 }
+
 /* FONT TYPE : family et size*/
 
 @font-face {
@@ -59,16 +60,6 @@
 
 html {
   font-family: Montserrat;
-}
-
-.txtgo {
-  font-family: "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 44px;
-
-  color: rgb(71, 5, 5);
 }
 
 /* BUTTONS*/
@@ -84,7 +75,12 @@ html {
   cursor: pointer;
 }
 
-.btn-default {
+.btn-secondary {
+  width: 150px;
+  height: 60px;
+  background-color: orange;
+}
+.btn-Default {
   background-color: var(--color-vertdeau);
 }
 
@@ -92,35 +88,24 @@ html {
   border-radius: 50% 50%;
 }
 
-.btn:focus {
-  border-color: var(--color-rougebrique);
-  background-color: white;
+.btn-tertiary
+{ width: 245px;
+height: 50px;
+background: orange;}
+
 }
 .btn:hover {
-  color: #9555af;
+  color: black;
   border-color: currentColor;
-  background-color: white;
+  background-color: orange;
 }
 
 .btn:active {
   border: var(--border-size) solid var(--color-rougebrique);
 }
 
-.btn:pressed {
-  border-color: black;
-  background-color: var(--color-grissouris);
-}
-
 .btn:disabled {
   background-color: var(--color-vertdeau);
-}
-
-.btn-primary {
-  background: var(--color-marron);
-}
-
-.btn-secondary {
-  border: var(--border-size) solid var(--color-vertdeau);
 }
 
 .btn-focus {
@@ -140,18 +125,4 @@ html {
 .btn-pressed {
   border-color: black;
   background-color: var(--color-grissouris);
-}
-
-.btn-disabled {
-  background-color: var(--color-vertdeau);
-}
-
-.btngo {
-  position: absolute;
-  width: 125px;
-  height: 116px;
-  border-radius: 150px;
-
-  background: #ffffff;
-  box-shadow: 0px 4px 10px;
 }
