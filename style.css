@@ -13,6 +13,7 @@
   --color-creme: #fafafa;
   --color-blanc: #ffffff;
   --color-vertdoux: #33CCCC;
+  --color-vertok: #40C700;
 
 
   --border-radius-md: 20px;
@@ -132,10 +133,10 @@ html {
  }
 
  .btn-petit:hover
-{   background-color: var(--color-marron);}
+{   background-color: var(--color-vertdoux);}
 
 .btn-petit:active
-{   background-color: var(--color-rougebrique);}
+{   background-color: var(--color-vertok);}
 
 
 
@@ -144,28 +145,28 @@ html {
 {   background-color: var(--color-vertdoux);}
 
 .btn-tertiary:active
-{   background-color: var(--color-noir);}
+{   background-color: var(--color-vertok);}
 
 .btn-circle:hover
 {   background-color: var(--color-vertdoux);}
 
 .btn-circle:active{
-    background-color: var(--color-noir);
+    background-color: var(--color-vertok);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-marron);
+  background-color: var(--color-vertdoux);
 }
 
 .btn-primary:active {
-  background-color: var(--color-rougebrique);
+  background-color: var(--color-vertok);
 }
 
 .btn-secondary:hover {
   background-color: var(--color-vertdoux);
 }
 .btn-secondary:active {
-  background-color: var(--color-noir);
+  background-color: var(--color-vertok);
 
 
 
