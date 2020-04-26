@@ -279,3 +279,28 @@ html {
   background-color: var(--color-grissouris);
   color: (var(--color-noir));
 }
+
+/******************* flexbox *******************/
+ .flex-container {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin: 20px;
+    flex-flow:column wrap;
+    
+  }
+  .flex-container-ligne {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    margin: 10px;
+    
+  }
