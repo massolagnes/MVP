@@ -123,6 +123,7 @@ html {
   font-weight: bold;
   font-size: var(--font-size-14);
   line-height: 1.2;
+  margin: 5px 5px;
 }
 
 .btn-primary2 {
@@ -135,6 +136,7 @@ html {
   font-weight: bold;
   font-size: var(--font-size-14);
   line-height: 1.2;
+  margin: 5px 5px;
 }
 
 .btn-primary:hover {
@@ -206,6 +208,7 @@ html {
   color: var(--color-blanc);
   padding: 25px 70px;
   box-shadow: var(--shadow-z1);
+  margin: 40px 20px;
 }
 .btn-secondary2 {
   border-radius: 50px;
@@ -278,4 +281,23 @@ html {
 .btn:disabled {
   background-color: var(--color-grissouris);
   color: (var(--color-noir));
+}
+
+/******************* flexbox *******************/
+.flex-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+}
+.flex-container-ligne {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
