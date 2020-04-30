@@ -284,6 +284,7 @@ html {
 }
 
 /******************* flexbox *******************/
+
 .flex-container {
   list-style: none;
   display: flex;
@@ -300,4 +301,25 @@ html {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+.flex-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  flex-flow: column wrap;
+}
+
+.flex-container-ligne {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
 }
