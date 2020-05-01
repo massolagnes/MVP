@@ -25,6 +25,7 @@
   /************************ shadow *************************/
 
   --shadow-z1: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  --shadow-z2: 0px 20px 10px rgba(0, 0, 0, 0.25);
 
   /**************************** font-size ********************/
   --font-size-14: 14px;
@@ -192,6 +193,9 @@ h1 {
   padding: 20px 20px 50px 60px;
 }
 
+.ombres {
+  padding: 20px 20px 50px 60px;
+}
 .bouton {
   padding: 20px 20px 50px 60px;
 }
@@ -200,6 +204,13 @@ h1 {
   padding: 20px 20px 50px 60px;
 }
 
+.shadowdefault {
+  box-shadow: var(--shadow-z1);
+}
+
+.shadowactivehover {
+  box-shadow: var(--shadow-z2);
+}
 .box {
   display: flex;
 }
@@ -235,9 +246,11 @@ h1 {
 
 .btn-primary:hover {
   background-color: var(--color-orangefonce);
+  box-shadow: var(--shadow-z2);
 }
 .btn-primary:active {
   background-color: var(--color-orangepale);
+  box-shadow: var(--shadow-z2);
 }
 .btn-primary:focus {
   border-color: var(--color-rose);
@@ -250,9 +263,11 @@ h1 {
 .btn-primary2:hover {
   background-color: var(--color-bleuocean);
   color: var(--color-blanc);
+  box-shadow: var(--shadow-z2);
 }
 .btn-primary2:active {
   background-color: var(--color-bleuclair);
+  box-shadow: var(--shadow-z2);
 }
 .btn-primary2:focus {
   border-color: var(--color-rose);
@@ -290,10 +305,12 @@ h1 {
 
 .btn-circle:hover {
   background-color: var(--color-rose);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-circle:active {
   background-color: var(--color-rougepale);
+  box-shadow: var(--shadow-z2);
 }
 .btn-circle:focus {
   border-color: var(--color-rose);
@@ -304,10 +321,12 @@ h1 {
 }
 .btn-circle2:hover {
   background-color: var(--color-bleuocean);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-circle2:active {
   background-color: var(--color-bleuclair);
+  box-shadow: var(--shadow-z2);
 }
 .btn-circle2:focus {
   border-color: var(--color-rose);
@@ -344,10 +363,12 @@ h1 {
 
 .btn-secondary:hover {
   background-color: var(--color-bleuocean);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-secondary:active {
   background-color: var(--color-bleuclair);
+  box-shadow: var(--shadow-z2);
 }
 .btn-secondary:focus {
   border-color: var(--color-rose);
@@ -360,11 +381,13 @@ h1 {
 .btn-secondary2:hover {
   background-color: var(--color-bleuocean);
   color: var(--color-blanc);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-secondary2:active {
   background-color: var(--color-bleuclair);
   color: var(--color-blanc);
+  box-shadow: var(--shadow-z2);
 }
 .btn-secondary2:focus {
   border-color: var(--color-rose);
@@ -389,10 +412,12 @@ h1 {
 
 .btn-tertiary:hover {
   background-color: var(--color-orangefonce);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-tertiary:active {
   background-color: var(--color-orangepale);
+  box-shadow: var(--shadow-z2);
 }
 
 .btn-tertiary:focus {
