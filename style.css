@@ -355,6 +355,7 @@ h1 {
   box-shadow: var(--shadow-z1);
   margin: 40px 20px;
   height: 50px;
+  line-height: 1px;
 }
 .btn-secondary2 {
   border-radius: var(--border-radius-m);
@@ -366,6 +367,7 @@ h1 {
   padding: 25px 70px;
   box-shadow: var(--shadow-z1);
   height: 50px;
+  line-height: 1px;
 }
 
 .btn-secondary:hover {
