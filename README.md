@@ -7,3 +7,5 @@ Agnes & Antoine pour super Collab
 Création de la component library
 
 A partir du fichier Figma : https://www.figma.com/file/9ukVVcP4bZxveShw3OHPrJ/MVP---Antoine---Agn%C3%A8s?node-id=333%3A0
+
+Mai 2020
