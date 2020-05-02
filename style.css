@@ -258,6 +258,7 @@ h1 {
 .btn-primary:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 .btn-primary2:hover {
@@ -275,6 +276,7 @@ h1 {
 .btn-primary2:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 /*************** bouton circle ******************/
@@ -306,18 +308,22 @@ h1 {
 .btn-circle:hover {
   background-color: var(--color-rose);
   box-shadow: var(--shadow-z2);
+  color: var(--color-blanc);
 }
 
 .btn-circle:active {
   background-color: var(--color-rougepale);
   box-shadow: var(--shadow-z2);
+  color: var(--color-blanc);
 }
 .btn-circle:focus {
   border-color: var(--color-rose);
+  color: var(--color-blanc);
 }
 .btn-circle:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 .btn-circle2:hover {
   background-color: var(--color-bleuocean);
@@ -334,6 +340,7 @@ h1 {
 .btn-circle2:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 /******************* bouton secondaire ****************/
@@ -376,6 +383,7 @@ h1 {
 .btn:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 .btn-secondary2:hover {
@@ -396,6 +404,7 @@ h1 {
 .btn-secondary2:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 /******************* bouton tertiary *******************/
@@ -427,6 +436,7 @@ h1 {
 .btn:disabled {
   background-color: var(--color-grisfonce);
   color: (var(--color-noir));
+  box-shadow: var(--shadow-z1);
 }
 
 /******************* flexbox *******************/
